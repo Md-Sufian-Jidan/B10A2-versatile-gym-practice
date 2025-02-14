@@ -23,6 +23,7 @@ body {
 
 :root {
     --primary-color: #e6533c;
+    --dark-02: #ffffff80;
 }
 
 /* navbar related styles */
@@ -76,7 +77,7 @@ nav ul li a {
 }
 
 .banner-description {
-    color: #ffffff80;
+    color: var(--dark-02);
     margin: 20px;
 }
 
@@ -105,4 +106,49 @@ nav ul li a {
 .Download {
     border: 1px solid white;
     background-color: black;
+}
+
+/* main section related styles */
+/* change section styles */
+.change-text {
+    width: 670px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.change-heading {
+    font-size: 48px;
+    margin: 20px auto;
+}
+
+.change-description {
+    font-size: 0.8rem;
+    color: var(--dark-02);
+}
+
+.habits {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.card-description {
+    font-size: 0.8rem;
+    color: var(--dark-02);
+    margin: 10px 0px;
 }
