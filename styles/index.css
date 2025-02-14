@@ -17,8 +17,14 @@
 /* shared styles */
 body {
     background-color: black;
-    margin: 30px 190px;
     color: white;
+}
+
+header,
+.change,
+.run-section,
+.trainings-section {
+    margin: 50px 190px;
 }
 
 :root {
@@ -208,15 +214,102 @@ nav ul li a {
     max-width: 520px;
     height: 200px;
 }
+
 .img-3 {
     max-width: 290px;
     height: 200px;
 }
+
 .img-4 {
     max-width: 520px;
     height: 200px;
 }
+
 .img-5 {
     max-width: 520px;
     height: 200px;
+}
+
+.img-6 {
+    max-width: 290px;
+    height: 200px;
+}
+
+.BMI-section {
+    padding: 50px 100px;
+    background-color: #222222;
+}
+
+.calculator {
+    text-align: center;
+}
+
+.calculator-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.calculator-description {
+    font-size: 0.8rem;
+    color: var(--dark-02);
+    margin-bottom: 20px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+}
+
+.calculator-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.calculator-section-heading {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.bmi-heading {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.bmi-description {
+    font-size: 0.8rem;
+    color: var(--dark-02);
+    margin: 20px 0px;
+}
+
+.input-fields {
+    margin: 30px 0px;
+}
+
+.input-field {
+    margin: 10px 0px;
+}
+
+
+.input-fields input {
+    width: 280px;
+    height: 45px;
+    margin: 20px 0px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right );
+    color: white;
 }
