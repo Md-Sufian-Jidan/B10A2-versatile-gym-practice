@@ -345,3 +345,45 @@ th {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+footer {
+    padding: 50px 150px;
+    background-color: #222222;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-fitness {
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--primary-color);
+    margin: 30px 0px;
+}
+
+.footer-description {
+    color: var(--dark-02);
+    width: 440px;
+}
+
+.get-started {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.footer-common {
+    font-size: 1.5rem;
+    color: var(--dark-02);
+    margin: 10px 0px;
+}
+
+.footer-reserved {
+    text-align: center;
+    margin: 20px 0px;
+}
